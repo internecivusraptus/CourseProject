@@ -11,12 +11,12 @@
 
 # How to understand variables
 
-1. See [CodeBook](../master/CodeBook.md)
+- See [CodeBook](../master/CodeBook.md)
 
-# How it is licensed
+# How is it licensed
 
-1. See [Licenses](../master/LICENSE.md)
+- See [Licenses](../master/LICENSE.md)
 
-# How it works
+# How does it work
 
-1. Under Construction
+- Under Construction
