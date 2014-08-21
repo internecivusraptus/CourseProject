@@ -1,10 +1,10 @@
-==
-LICENSE
+## LICENSE
 
 
-All data in UCI HAR Dataset folder belongs to their respective owners (see UCI HAR Dataset/README.txt)
+- All data in [*UCI HAR Dataset*](../blob/master/UCI HAR Dataset/) folder belongs to their respective owners (see UCI HAR Dataset/README.txt)
 
-```License:
+```
+License:
 ========
 Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
 
@@ -12,12 +12,14 @@ Use of this dataset in publications must be acknowledged by referencing the foll
 
 This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
 
-Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.```
+Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
+```
 
 
-All code is licensed under GPLv3 license (see LICENSE file for more information).
+- All code is licensed under GPLv3 license (see LICENSE file for more information).
 
-```Copyright © 2014  Igor Gritsenko
+```
+Copyright © 2014  Igor Gritsenko
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -30,4 +32,6 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.```
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+```
+
