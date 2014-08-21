@@ -1,7 +1,7 @@
 ## LICENSE
 
 
-- All data in [*UCI HAR Dataset*](../blob/master/UCI HAR Dataset/) folder belongs to their respective owners (see UCI HAR Dataset/README.txt)
+- All data in [*UCI HAR Dataset*](../master/UCI HAR Dataset/)  folder belongs to their respective owners (see [UCI HAR Dataset/README.txt](../master/UCI HAR Dataset/README.txt))
 
 ```
 License:
@@ -16,7 +16,7 @@ Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012
 ```
 
 
-- All code is licensed under GPLv3 license (see LICENSE file for more information).
+- All code is licensed under GPLv3 license (see [LICENSE](../master/LICENSE) file for more information).
 
 ```
 Copyright © 2014  Igor Gritsenko
