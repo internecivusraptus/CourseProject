@@ -24,6 +24,7 @@ Our job is completed and fresh tidy dataset is produced.
 
 # Useful information
 
+- Do not forget to add header=TRUE while read.table()
 - lowerCamelCase was used to provide better human-readability
 - Each abbreviation was expanded into full-length word except std (standard deviation), e.g. Acc -> Accelerometer, etc. See ```cleancolnames``` function for better understanding of what and how it was expanded.
 - wide data format was considered as a good tidy data approach
