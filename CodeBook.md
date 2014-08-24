@@ -1,7 +1,7 @@
 |Name|Class|Range|Short Description|
 |---|---|---|---|
-|Subject|Numeric|[-1,1]|NA|
-|Activity|Numeric|[-1,1]|NA|
+|Subject|Numeric|[1,30]|Number of subject that was tested|
+|Activity|Factor|[Walking, Walking upstairs, Walking downstairs, Sitting, Standing, Laying]|NA|
 |meanOfTimeBodyAccelerometerMeanX|Numeric|[-1,1]|NA|
 |meanOfTimeBodyAccelerometerMeanY|Numeric|[-1,1]|NA|
 |meanOfTimeBodyAccelerometerMeanZ|Numeric|[-1,1]|NA|
