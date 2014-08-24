@@ -18,7 +18,6 @@ gatherdata <- function () {
 
 	feats    <- read.table(file = "UCI HAR Dataset/features.txt",colClasses =
 						   	"character")
-	activs   <- read.table(file = "UCI HAR Dataset/activity_labels.txt")
 	colNames <- c("Subject", "Activity", feats[[2]])
 
 	ytest    <- read.table(file = "UCI HAR Dataset/test/y_test.txt")
@@ -36,9 +35,6 @@ gatherdata <- function () {
 	colnames(syxtrain) <- colNames
 
 	wholetbl <- rbind(syxtest, syxtrain, deparse.level = 0)
-	acfac <- factor(cleanacts(activs[[2]]))
-
-	wholetbl$Activity <- acfac[wholetbl$Activity]
 	return(wholetbl)
 }
 
@@ -50,12 +46,20 @@ cleanacts <- function (v) {
 	return(v)
 }
 
-## Function to make features (aka column names) cleaner
-cleanfeatures <- function (v) {
-	v <- gsub("[-)(]", "", v)
+## Function to make column names cleaner and more human-readable
+cleancolnames<- function (v) {
+
+	v <- sub("^t", "meanOfTime", v)
+	v <- sub("^f", "meanOfFrequency", v)
+	v <- sub("Acc", "Accelerometer", v)
+	v <- sub("Gyro", "Gyroscope", v)
+	v <- sub("Mag", "Magnitude", v)
+	v <- sub("BodyBody", "Body", v)
+	v <- sub("-(\\w)(\\w+)\\(\\)-?", "\\U\\1\\L\\2", v, perl = TRUE)
+
 	return (v)
 }
-
+## Function to select only required columns
 cleandata <- function(x) {
 	newcols <- grep("(mean|std)\\(\\)", colnames(x))
 	x <- x[,c(1, 2, newcols)]
@@ -63,10 +67,12 @@ cleandata <- function(x) {
 }
 
 processdata <- function (x) {
+
+
 	xmelt	<- melt(x, id=c("Subject", "Activity"),
 				  measure.vars = colnames(x)[-c(1, 2)])
 	dxmelt	<- dcast(xmelt, Subject+Activity~variable, mean)
-
+	colnames(dxmelt) <- sapply(colnames(dxmelt),cleancolnames)
 	return(dxmelt)
 }
 
@@ -79,7 +85,11 @@ run_analysis <- function() {
 	mytbl <- gatherdata()
 	mytbl <- cleandata(mytbl)
 	mytbl <- processdata(mytbl)
+
+	activs   <- read.table(file = "UCI HAR Dataset/activity_labels.txt")
+	acfac <- factor(cleanacts(activs[[2]]))
+	mytbl$Activity <- acfac[mytbl$Activity]
+
 	write.table(mytbl, "tidydata.txt", row.names = FALSE)
-	View(mytbl)
 	return(mytbl)
 }
