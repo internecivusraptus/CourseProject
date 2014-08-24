@@ -2,69 +2,69 @@
 |---|---|---|---|
 |Subject|Numeric|[1,30]|Number of subject that was tested|
 |Activity|Factor|[Walking, Walking upstairs, Walking downstairs, Sitting, Standing, Laying]|Activity that was performed by subject|
-|meanOfTimeBodyAccelerometerMeanX|Numeric|[-1,1]|NA|
-|meanOfTimeBodyAccelerometerMeanY|Numeric|[-1,1]|NA|
-|meanOfTimeBodyAccelerometerMeanZ|Numeric|[-1,1]|NA|
-|meanOfTimeBodyAccelerometerStdX|Numeric|[-1,1]|NA|
-|meanOfTimeBodyAccelerometerStdY|Numeric|[-1,1]|NA|
-|meanOfTimeBodyAccelerometerStdZ|Numeric|[-1,1]|NA|
-|meanOfTimeGravityAccelerometerMeanX|Numeric|[-1,1]|NA|
-|meanOfTimeGravityAccelerometerMeanY|Numeric|[-1,1]|NA|
-|meanOfTimeGravityAccelerometerMeanZ|Numeric|[-1,1]|NA|
-|meanOfTimeGravityAccelerometerStdX|Numeric|[-1,1]|NA|
-|meanOfTimeGravityAccelerometerStdY|Numeric|[-1,1]|NA|
-|meanOfTimeGravityAccelerometerStdZ|Numeric|[-1,1]|NA|
-|meanOfTimeBodyAccelerometerJerkMeanX|Numeric|[-1,1]|NA|
-|meanOfTimeBodyAccelerometerJerkMeanY|Numeric|[-1,1]|NA|
-|meanOfTimeBodyAccelerometerJerkMeanZ|Numeric|[-1,1]|NA|
-|meanOfTimeBodyAccelerometerJerkStdX|Numeric|[-1,1]|NA|
-|meanOfTimeBodyAccelerometerJerkStdY|Numeric|[-1,1]|NA|
-|meanOfTimeBodyAccelerometerJerkStdZ|Numeric|[-1,1]|NA|
-|meanOfTimeBodyGyroscopeMeanX|Numeric|[-1,1]|NA|
-|meanOfTimeBodyGyroscopeMeanY|Numeric|[-1,1]|NA|
-|meanOfTimeBodyGyroscopeMeanZ|Numeric|[-1,1]|NA|
-|meanOfTimeBodyGyroscopeStdX|Numeric|[-1,1]|NA|
-|meanOfTimeBodyGyroscopeStdY|Numeric|[-1,1]|NA|
-|meanOfTimeBodyGyroscopeStdZ|Numeric|[-1,1]|NA|
-|meanOfTimeBodyGyroscopeJerkMeanX|Numeric|[-1,1]|NA|
-|meanOfTimeBodyGyroscopeJerkMeanY|Numeric|[-1,1]|NA|
-|meanOfTimeBodyGyroscopeJerkMeanZ|Numeric|[-1,1]|NA|
-|meanOfTimeBodyGyroscopeJerkStdX|Numeric|[-1,1]|NA|
-|meanOfTimeBodyGyroscopeJerkStdY|Numeric|[-1,1]|NA|
-|meanOfTimeBodyGyroscopeJerkStdZ|Numeric|[-1,1]|NA|
-|meanOfTimeBodyAccelerometerMagnitudeMean|Numeric|[-1,1]|NA|
-|meanOfTimeBodyAccelerometerMagnitudeStd|Numeric|[-1,1]|NA|
-|meanOfTimeGravityAccelerometerMagnitudeMean|Numeric|[-1,1]|NA|
-|meanOfTimeGravityAccelerometerMagnitudeStd|Numeric|[-1,1]|NA|
-|meanOfTimeBodyAccelerometerJerkMagnitudeMean|Numeric|[-1,1]|NA|
-|meanOfTimeBodyAccelerometerJerkMagnitudeStd|Numeric|[-1,1]|NA|
-|meanOfTimeBodyGyroscopeMagnitudeMean|Numeric|[-1,1]|NA|
-|meanOfTimeBodyGyroscopeMagnitudeStd|Numeric|[-1,1]|NA|
-|meanOfTimeBodyGyroscopeJerkMagnitudeMean|Numeric|[-1,1]|NA|
-|meanOfTimeBodyGyroscopeJerkMagnitudeStd|Numeric|[-1,1]|NA|
-|meanOfFrequencyBodyAccelerometerMeanX|Numeric|[-1,1]|NA|
-|meanOfFrequencyBodyAccelerometerMeanY|Numeric|[-1,1]|NA|
-|meanOfFrequencyBodyAccelerometerMeanZ|Numeric|[-1,1]|NA|
-|meanOfFrequencyBodyAccelerometerStdX|Numeric|[-1,1]|NA|
-|meanOfFrequencyBodyAccelerometerStdY|Numeric|[-1,1]|NA|
-|meanOfFrequencyBodyAccelerometerStdZ|Numeric|[-1,1]|NA|
-|meanOfFrequencyBodyAccelerometerJerkMeanX|Numeric|[-1,1]|NA|
-|meanOfFrequencyBodyAccelerometerJerkMeanY|Numeric|[-1,1]|NA|
-|meanOfFrequencyBodyAccelerometerJerkMeanZ|Numeric|[-1,1]|NA|
-|meanOfFrequencyBodyAccelerometerJerkStdX|Numeric|[-1,1]|NA|
-|meanOfFrequencyBodyAccelerometerJerkStdY|Numeric|[-1,1]|NA|
-|meanOfFrequencyBodyAccelerometerJerkStdZ|Numeric|[-1,1]|NA|
-|meanOfFrequencyBodyGyroscopeMeanX|Numeric|[-1,1]|NA|
-|meanOfFrequencyBodyGyroscopeMeanY|Numeric|[-1,1]|NA|
-|meanOfFrequencyBodyGyroscopeMeanZ|Numeric|[-1,1]|NA|
-|meanOfFrequencyBodyGyroscopeStdX|Numeric|[-1,1]|NA|
-|meanOfFrequencyBodyGyroscopeStdY|Numeric|[-1,1]|NA|
-|meanOfFrequencyBodyGyroscopeStdZ|Numeric|[-1,1]|NA|
-|meanOfFrequencyBodyAccelerometerMagnitudeMean|Numeric|[-1,1]|NA|
-|meanOfFrequencyBodyAccelerometerMagnitudeStd|Numeric|[-1,1]|NA|
-|meanOfFrequencyBodyAccelerometerJerkMagnitudeMean|Numeric|[-1,1]|NA|
-|meanOfFrequencyBodyAccelerometerJerkMagnitudeStd|Numeric|[-1,1]|NA|
-|meanOfFrequencyBodyGyroscopeMagnitudeMean|Numeric|[-1,1]|NA|
-|meanOfFrequencyBodyGyroscopeMagnitudeStd|Numeric|[-1,1]|NA|
-|meanOfFrequencyBodyGyroscopeJerkMagnitudeMean|Numeric|[-1,1]|NA|
-|meanOfFrequencyBodyGyroscopeJerkMagnitudeStd|Numeric|[-1,1]|NA|
+|meanOfTimeBodyAccelerometerMeanX|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyAccelerometerMeanY|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyAccelerometerMeanZ|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyAccelerometerStdX|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyAccelerometerStdY|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyAccelerometerStdZ|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeGravityAccelerometerMeanX|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeGravityAccelerometerMeanY|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeGravityAccelerometerMeanZ|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeGravityAccelerometerStdX|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeGravityAccelerometerStdY|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeGravityAccelerometerStdZ|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyAccelerometerJerkMeanX|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyAccelerometerJerkMeanY|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyAccelerometerJerkMeanZ|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyAccelerometerJerkStdX|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyAccelerometerJerkStdY|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyAccelerometerJerkStdZ|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyGyroscopeMeanX|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyGyroscopeMeanY|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyGyroscopeMeanZ|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyGyroscopeStdX|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyGyroscopeStdY|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyGyroscopeStdZ|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyGyroscopeJerkMeanX|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyGyroscopeJerkMeanY|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyGyroscopeJerkMeanZ|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyGyroscopeJerkStdX|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyGyroscopeJerkStdY|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyGyroscopeJerkStdZ|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyAccelerometerMagnitudeMean|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyAccelerometerMagnitudeStd|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeGravityAccelerometerMagnitudeMean|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeGravityAccelerometerMagnitudeStd|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyAccelerometerJerkMagnitudeMean|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyAccelerometerJerkMagnitudeStd|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyGyroscopeMagnitudeMean|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyGyroscopeMagnitudeStd|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyGyroscopeJerkMagnitudeMean|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfTimeBodyGyroscopeJerkMagnitudeStd|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfFrequencyBodyAccelerometerMeanX|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfFrequencyBodyAccelerometerMeanY|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfFrequencyBodyAccelerometerMeanZ|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfFrequencyBodyAccelerometerStdX|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfFrequencyBodyAccelerometerStdY|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfFrequencyBodyAccelerometerStdZ|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfFrequencyBodyAccelerometerJerkMeanX|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfFrequencyBodyAccelerometerJerkMeanY|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfFrequencyBodyAccelerometerJerkMeanZ|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfFrequencyBodyAccelerometerJerkStdX|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfFrequencyBodyAccelerometerJerkStdY|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfFrequencyBodyAccelerometerJerkStdZ|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfFrequencyBodyGyroscopeMeanX|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfFrequencyBodyGyroscopeMeanY|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfFrequencyBodyGyroscopeMeanZ|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfFrequencyBodyGyroscopeStdX|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfFrequencyBodyGyroscopeStdY|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfFrequencyBodyGyroscopeStdZ|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfFrequencyBodyAccelerometerMagnitudeMean|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfFrequencyBodyAccelerometerMagnitudeStd|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfFrequencyBodyAccelerometerJerkMagnitudeMean|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfFrequencyBodyAccelerometerJerkMagnitudeStd|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfFrequencyBodyGyroscopeMagnitudeMean|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfFrequencyBodyGyroscopeMagnitudeStd|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfFrequencyBodyGyroscopeJerkMagnitudeMean|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
+|meanOfFrequencyBodyGyroscopeJerkMagnitudeStd|Numeric|[-1,1]|Mean per subject and activity of the corresponding original data variable|
