@@ -7,7 +7,7 @@
 `   run_analysis()   `
 4. It will produce simultaneously
   1. tidy data in your environment
-  2. tidy data in tidy_data.csv file
+  2. tidy data in tidydata.txt file
 
 # How to understand variables
 
