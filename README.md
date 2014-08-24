@@ -6,8 +6,8 @@
 3. Run analysis function 
 `   run_analysis()   `
 4. It will produce simultaneously
-  a. tidy data in your environment
-  b. tidy data in tidydata.txt file
+  1. tidy data in your environment
+  2. tidy data in tidydata.txt file
 
 # How to understand variables
 
@@ -15,7 +15,12 @@
 
 # How does it work
 
-At first data was read from files and merged into one 
+At first data was read from files via ```read.table()``` and merged into one table using a couple of ```cbind()```'s and ```rbind()```.
+Then features names were searched with ```grep()``` for std() and mean() occurence and corresponding columns were selected for further processing.
+After melting (```melt()```) and casting(```dcast()```) we got a tidy data set that still required some work on it.
+First, feature names were expanded and last, activity ids were replaced with modified activity names. 
+We have nothing more to do except for ```write.table()``` and ```return()```.
+Our job is completed and fresh tidy dataset is produced. 
 
 # Useful information
 
@@ -25,8 +30,10 @@ At first data was read from files and merged into one
 - meanFreq() variables wasn't considered as true mean variables because of description from original info
 > weighted average of the frequency components to obtain a mean frequency
 
-- angle() variables wasn't considered as true mean variables because of description from original info 
+- Mean columns inside angle() wasn't considered as true mean variables because of description from original info 
 > Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable.
+
+- BodyBody is considered as mistyping, corrected in my dataset.
 
 # How is it licensed
 
