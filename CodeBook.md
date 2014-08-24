@@ -1,3 +1,10 @@
+## Summary
+
+Original data was merged, cleaned and processed.
+Produced dataset with 180 rows and 68 columns.
+
+## Variables
+
 |Name|Class|Range|Short Description|
 |---|---|---|---|
 |Subject|Numeric|[1,30]|Number of subject that was tested|
